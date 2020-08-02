@@ -10,6 +10,6 @@ import com.example.TestSpringBoot.Models.Structure;
 
 @RepositoryRestResource
 @CrossOrigin("*")
-public interface StructureRepo extends JpaRepository<Structure,Long>{
+public interface StructureRepository extends JpaRepository<Structure,Long>{
 
 }
